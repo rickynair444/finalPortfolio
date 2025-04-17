@@ -1,0 +1,28 @@
+  h2 
+  {
+    color: #00d9ff;
+    font-weight: 900;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus 
+  {
+    background-color: #ff8800;
+    border: 10px solid #00d9ff;
+  }
+
+  .list-group-item 
+  {
+    background-color: #ff8800;
+    border: 10px solid #00d9ff;
+  }
+  
+  footer 
+  {
+    background-color: #00d9ff;
+    padding: 30px 0;
+  }
+  
+
+  
+

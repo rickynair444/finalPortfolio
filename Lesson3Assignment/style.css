@@ -1,0 +1,34 @@
+/* learned that css does NOT use those arrow comments like html. here im setting the background color to a nice blue that reminds me of paul walkers style */
+/* chose a super weird font from w3 schools   */ 
+body {
+    background-color: #6bebfc; 
+    font-family: monospace, monaco;
+    line-height: 2.0;
+}
+
+/* here I change the text color to somethong darker so the bacgkround doesnt cover it */
+h1 {
+    color: #003366; 
+}
+
+/* here i put a thick bright red border around images */
+img {
+    border: 10px solid rgb(245, 2, 2);
+    text-align: center;
+}
+
+/* here i change the paragraphs and the second heading to one style Use multiple selectors to set a single style which was just centering paragaphs style so its in the middle */
+p, h2 {
+    text-align: center;
+}
+
+/* making the title dark red and center so its a real header like in wordSpecify a field by id */
+#titleheader {
+    color: rgb(61, 1, 1); 
+    text-align: center; 
+}
+
+/* using the uppercase css format for all paragraph parts that wasnt talked abt in class */
+p {
+    text-transform: uppercase; 
+}

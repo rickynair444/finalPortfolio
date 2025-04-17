@@ -1,0 +1,232 @@
+body 
+{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; 
+    background-color: #000; 
+}
+  
+header 
+{
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer 
+{
+    background-color: #ff00dd;
+    color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+  
+h1, h2 
+{
+    font-family: Impact, sans-serif;
+    color: #ee6767; 
+    margin: 10px 0;
+}
+
+nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #111;           
+    display: flex;
+    justify-content: center;         
+}
+  
+nav ul li 
+{
+    margin: 0;
+}
+  
+nav ul li a 
+{
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover 
+{
+    background-color: #ff0000;       
+    color: #111;                      
+}
+
+.hi 
+{
+    padding: 30px;
+    text-align: center;
+}
+
+.bye 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+  
+.lol 
+{
+    background-color: #333;           
+    color: #ee6767;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ff0000;        
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+  
+.lol:hover 
+{
+    transform: translateY(10px) scale(1.2);
+}
+  
+.idk 
+{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+}
+  
+.idk img 
+{
+    width: 80px;
+    margin-top: 10px;
+}
+  
+.lol:hover .idk 
+{
+    opacity: 1;
+}
+  
+.hype 
+{
+    padding: 20px;
+}
+  
+table 
+{
+    width: 100%;                    
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #222;         
+}
+  
+thead 
+{
+    background-color: #ff0000;       
+    color: #111;                     
+}
+  
+th, td 
+{
+    padding: 12px;
+    border: 1px solid #444;         
+}
+  
+tbody tr:hover 
+{
+    background-color: #333;   
+}
+
+.yay 
+{
+    margin: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+.anothaone 
+{
+    float: left;
+    width: 50%;
+    margin: 10px;
+    padding: 15px; 
+    border: 2px solid #ff0000; 
+    border-radius: 5px; 
+    background-color: #222; 
+}
+
+.iammusic 
+{
+    float: right; 
+    margin: 10px; 
+    width: 45%; 
+    padding: 15px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+.hooray 
+{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    width: 45%; 
+}
+
+.htmlisfire 
+{
+    float: left;
+    margin-right: 10%; 
+}
+
+.yeehaw 
+{
+    float: right;
+    margin-left: 10%; 
+}
+
+.momma 
+{
+    clear: both;
+    margin: 20px;
+}
+
+.ye 
+{
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ff0000; 
+    border-radius: 5px; 
+    background-color: #222; 
+}
+
+.typeshi 
+{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background: #ff00dd;
+    color: #111;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}

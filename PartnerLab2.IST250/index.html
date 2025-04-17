@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<nav style="background-color: #f4f4f4; padding: 1em; text-align: center; border-bottom: 1px solid #ccc;">
+    <a href="../portfolioindex.html" style="text-decoration: none; color: #333; font-weight: bold;">&larr; Back to Portfolio</a>
+</nav>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1 id="greeting">Welcome to Calculator</h1>
+            <p>Take a step into the Math Dimension</p>
+            
+            <label for="customName">Enter your name for greeting:</label>
+            <input type="text" id="customName" name="customName">
+            <br>
+            <label for="customMessage">Enter a custom brief message:</label>
+            <input type="text" id="customMessage" name="customMessage">
+            <br>
+            <input type="button" value="Update Greeting & Message" onclick="updateGreeting();">
+            <br><br>
+
+            <label for="num1">Enter your first number</label>
+            <br>
+            <input type="text" id="num1" name="num1">
+            <br>
+            <label for="num2">Enter your second number</label>
+            <br>
+            <input type="text" id="num2" name="num2">
+            <br>
+            <label for="operator">Enter your operator</label>
+            <br>
+            <input type="button" value="+ ADD +" onclick="add();">
+            <input type="button" value="- SUBTRACT -" onclick="subtract();">
+            <input type="button" value="* MULTIPLY *" onclick="multiply();">
+            <input type="button" value="/ DIVIDE /" onclick="divide();">
+            <br>
+            <label for="bg-color">Choose background color:</label>
+            <select id="bg-color" onchange="changeBackgroundColor()">
+                <option value="black">Black</option>
+                <option value="#4CAF50">Green</option>
+                <option value="#f44336">Red</option>
+                <option value="#ff9800">Orange</option>
+                <option value="#2196F3">Blue</option>
+            </select>
+            <br>
+            <p id="output"></p>
+            <details>
+                <summary>Explanation</summary>
+                <div>
+                    <slot></slot>
+                    <p id="explanation"></p>
+                </div>
+            </details>
+            <div id="log-container">
+                <h2>Log</h2>
+                <ul id="log"></ul>
+            </div>
+        </div>
+        <div class="todo-list">
+            <h2>To Do List</h2>
+            <label for="todo">Add To Do Item:</label>
+            <input type="text" id="todo" name="todo">
+            <input type="button" value="Add To Do" onclick="addToDo();">
+            <ol id="todo-list"></ol>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+input[type="button"]{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px white;
+    background-color: #000000;
+}
+input[value="+ ADD +"] {
+    background-color: #4CAF50; /* Green */
+}
+
+input[value="- SUBTRACT -"] {
+    background-color: #f44336; /* Red */
+}
+
+input[value="* MULTIPLY *"] {
+    background-color: #ff9800; /* Orange */
+}
+
+input[value="/ DIVIDE /"] {
+    background-color: #2196F3; /* Blue */
+}
+input[value="Update Greeting & Message"]{
+    background-color: #4CAF50; /* Green */
+}
+input[type="text"]{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px white;
+}
+body{
+    background-color: #000000;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#output{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px white;
+    width: 50%;
+    margin: auto;
+}
+#explaination
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px white;
+    
+}
+
+#log-container{
+    
+    border: white solid 1px;
+    padding: 10px;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}
+#log-container h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}
+select{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator {
+    width: 60%;
+}
+
+.todo-list {
+    width: 35%;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+input[value="Add To Do"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+input[value="Delete To Do"] {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+#customName{
+    font-size: 20px;
+}
+#customMessage{
+    font-size: 20px;
+}

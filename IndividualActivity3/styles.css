@@ -1,0 +1,149 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+h1
+{
+  margin: 0;
+  padding: 20px;
+  font-size: 28px;
+  text-align: center;
+  background: #ffaa00;
+  color: #fff;
+}
+
+.hi
+{
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  background: #ffeecc;
+}
+
+.bye
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.lol
+{
+  margin: 10px;
+  text-align: center;
+}
+
+.idk
+{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.anothaone
+{
+  width: 300px;
+  margin: 5px auto;
+  font-size: 14px;
+}
+
+.hype
+{
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.yay
+{
+  margin: 5px;
+}
+
+.iammusic
+{
+  margin: 5px;
+}
+
+.hooray
+{
+  margin: 5px;
+}
+
+.htmlisfire
+{
+  display: none;
+  margin: 20px;
+  text-align: center;
+}
+
+.yeehaw
+{
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.momma
+{
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+
+@media (max-width: 900px)
+{
+  .idk
+  {
+    width: 200px;
+    height: 130px;
+  }
+  .anothaone
+  {
+    width: 200px;
+    font-size: 12px;
+  }
+  .hype
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .yay
+  {
+    display: none;
+  }
+  .iammusic
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .bye
+  {
+    display: none;
+  }
+  .hype
+  {
+    display: none;
+  }
+  .htmlisfire
+  {
+    display: block;
+  }
+  .momma
+  {
+    width: 160px;
+    height: 96px;
+  }
+}

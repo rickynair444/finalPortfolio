@@ -1,0 +1,227 @@
+* using import cause some may not have font downloadd and did not want to use href for each index.html */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #778899; 
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+}
+p    {
+    color: #000000;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #F8F8FF; 
+    background-color: #696969; 
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #F8F8FF;
+}
+h3 {
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+h4 {
+    font-weight: normal;
+}
+h5 {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+span {
+    font-weight: bold;
+    color: #000000; 
+    background-color: #F8F8FF;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+nav {
+    background-color: #444444; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #B22222; 
+}
+.bio-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center the image */
+}
+.floating-box {
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    color: #000000;
+    width: 80%;
+    box-sizing: border-box;
+}
+.floating-box-index2 {
+    width: 100%;
+    margin: 10px auto;
+    text-align: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+
+.floating-box img {
+    float: left;
+    width: 250px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 3px solid #cccccc; 
+}
+
+.floating-box p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: auto;
+    border-style: outset;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.hover-effect:hover {
+    background-color: #B22222; 
+    color: #ff00fb; 
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 10px;
+    color: #ffffff; 
+}
+
+ul li, ol li {
+    font-size: 18px;
+    padding: 5px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 2px auto;
+    padding: 10px;
+}
+.lists-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.list-container ol {
+    text-align: left; /* Align text to the left */
+    list-style-position: inside; /* Ensure numbers are inside the list */
+    padding: 20px, 20px;
+    margin: 0, auto;
+}
+
+.list-container li {
+    padding-left: 20px; /* Add padding to align text properly */
+}
+
+#home-list {
+    flex: 1;
+}
+
+#detail-list {
+    flex: 1;
+}
+
+
+
+footer {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #444444;
+    color: #ffffff;
+    padding: 20px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-weight: bold;
+    
+}
+.intro {
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    color: #F8F8FF;
+}
+.homelist {
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    margin: 0px 40px;
+    color: #F8F8FF;
+    font-size: 40px;
+}
+.pic-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: auto;
+    margin-bottom: auto;
+  }
+  .quote {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+    color: #F8F8FF;
+    font-size: 18px;
+    font-weight: bold;
+  }
